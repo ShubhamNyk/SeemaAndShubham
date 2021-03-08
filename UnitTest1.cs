@@ -32,7 +32,7 @@ namespace studentTesting
         {
             Program obj = new Program();
            String[] ans = obj.getSkills();       //getting Skills from class student
-            Assert.Equals ("java",ans);
+            Assert.Equals ({"java","Python","javascript"},ans);
         }
       
 
