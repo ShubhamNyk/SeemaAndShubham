@@ -31,7 +31,7 @@ namespace studentTesting
         public void TestSkills()                //testing for method Skills
         {
             Program obj = new Program();
-           String ans = obj.getSkills();       //getting Skills from class student
+           String[] ans = obj.getSkills();       //getting Skills from class student
             Assert.Equals ("java",ans);
         }
       
